@@ -1,0 +1,76 @@
+/**
+positions elements in the center of the page
+ */
+.centerTeam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**
+styles the buttons that are used in the teammanager
+ */
+.teamButton {
+    position: relative;
+    top: 20px;
+    border: none;
+    color: white;
+    background-color: #5e9cd0;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/**
+gives the button a color change when the mouse hovers over it
+ */
+.teamButton:hover {
+    background-color: #ff9f57;
+    color: #282c34;
+    transition-duration: 0.5s;
+}
+
+.infoteam {
+    position: relative;
+    display: inline-block;
+}
+
+/**
+sets the style for the tooltip-text
+ */
+.infoteam .infotext {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    visibility: hidden;
+    width: 200px;
+    margin-left: -100px;
+    left: 50%;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/**
+makes the tooltip visible once the mouse hovers over the correct element
+ */
+.infoteam:hover .infotext {
+    visibility: visible;
+}
+
+/**
+styles the footer at the end of the page
+ */
+#teamfooter {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+

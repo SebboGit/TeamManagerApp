@@ -1,0 +1,104 @@
+.create-fee-outer {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.create-fee-container {
+    margin: 10% auto;
+    width: 35%;
+    background-color: white;
+    border-radius: 10px;
+	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+div.close-create {
+    cursor: pointer;
+    font-size: x-large;
+    float: right;
+    margin: 2px;
+    color: white;
+}
+
+div.close-create:hover {
+    color: black;
+}
+
+.create-fee-heading {
+    background-color: #005da8;
+    color: white;
+	padding: 20px 40px;
+}
+
+.create-fee-heading h2 {
+    margin: 0;
+}
+
+.create-fee-container small {
+    font-style: italic;
+    margin-left: 29%;
+}
+
+.create-fee-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 7%;
+}
+
+.create-fee-form label {
+    margin: 0 50px;
+    font-size: large;
+}
+
+.create-fee-form label input {
+    font-size: 16px;
+    margin: 7px;
+    width: 50%;
+    padding-bottom: 2px;
+    border-width: 0px;
+    border-bottom: 1px solid var(--fee-blue-main);
+    text-align: left;
+    float: right;
+}
+
+.create-fee-form label input::placeholder {
+    opacity: 0.1;
+}
+
+.create-fee-form label input:focus {
+    outline: none;
+}
+
+.create-fee-form label input.create-error {
+    color:red;
+    border-bottom: 1px solid red;
+}
+
+
+.create-fee-btn {
+    margin-bottom: 20px;
+    margin-top: 75px;
+    background-color: var(--fee-blue-main);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    width: 30%;
+    align-self: center;
+}
+
+.create-fee-btn:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+    background-color: var(--fee-blue-hover);
+}

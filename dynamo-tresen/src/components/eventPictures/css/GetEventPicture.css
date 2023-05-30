@@ -1,0 +1,44 @@
+.ep-btn-submit {
+    width: 150px;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: green;
+    top: 16px;
+    right: 16px;
+}
+
+.ep-btn-submit-rating {
+    width: 150px;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    margin-right: 15px;
+    margin-left: 138px;
+    background-color: green;
+    top: 16px;
+    right: 16px;
+}
+
+.ep-btn-overview {
+    width: 150px;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    margin-right: 15px;
+    margin-left: 82px;
+    background-color: green;
+    top: 16px;
+    right: 16px;
+}
+
+.ep-img-resize {
+    width: 100%;
+    object-fit: contain;
+}
+
+.ep-popupEP {
+    height: 600px;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}

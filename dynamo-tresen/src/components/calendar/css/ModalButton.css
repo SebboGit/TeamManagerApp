@@ -1,0 +1,74 @@
+.btn-event {
+    background-color: lightgrey;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 15%);
+    color: black;
+    font-size: 16px;
+    padding: 12px 20px;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 1em;
+}
+
+.event-small {
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.event-form {
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1em;
+    width: 80%;
+  }
+  
+  .event-form-group {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .form-control {
+    background-color: #e6dddc;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+    height: 100%;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+
+  .short {
+      width: 20%;
+  }
+
+  .long {
+      width: 60%;
+  }
+
+  input[type="file"].upload-pdf {
+    display: none;
+}
+
+.custom-file-upload {
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+

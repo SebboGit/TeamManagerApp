@@ -1,0 +1,84 @@
+:root {
+  --fee-blue-main: #005da8;
+  --fee-blue-hover: #0087f5;
+}
+
+.FeeOverview {
+    display: flex;
+    flex-direction: column;
+}
+
+.FeeOverview h1 {
+    align-self: center;
+}
+
+.new-fee-btn {
+    position: fixed;
+    top: 100px;
+    left: 3%;
+    width: 130px;
+    background-color: var(--fee-blue-main);
+    color: white;
+    border: 0;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+	font-size: 16px;
+	padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.new-fee-btn:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+    background-color: var(--fee-blue-hover);
+}
+
+.refresh-fees-btn {
+    position: fixed;
+    top: 150px;
+    left: 3%;
+    width: 130px;
+    background-color: var(--fee-blue-main);
+    color: white;
+    border: 0;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+	font-size: 16px;
+	padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.refresh-fees-btn:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+    background-color: var(--fee-blue-hover);
+}
+
+.refresh-fees-btn span.icon{
+    transition: 0.3s;
+}
+
+.refresh-fees-btn:hover span.icon{
+    transform: rotate(180deg);
+}
+
+.calc-fee-btn {
+    position: fixed;
+    top: 100px;
+    right: 3%;
+    width: 140px;
+    background-color: var(--fee-blue-main);
+    color: white;
+    border: 0;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+	font-size: 16px;
+	padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.calc-fee-btn:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+    background-color: var(--fee-blue-hover);
+}

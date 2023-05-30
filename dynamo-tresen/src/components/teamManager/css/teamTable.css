@@ -1,0 +1,28 @@
+/**
+styles the overall table in which the different teams are displayed
+ */
+#teamtable {
+    margin: auto;
+    width: 60%;
+    font-family: Bahnschrift, sans-serif, Arial;
+    border-collapse: collapse;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#teamtable th, #teamtable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#teamtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #256fa0;
+    color: white;
+}
+
+#teamtable tr:hover {
+    background-color: lightgray;
+}
+

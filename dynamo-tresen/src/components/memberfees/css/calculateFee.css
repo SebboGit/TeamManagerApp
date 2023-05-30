@@ -1,0 +1,93 @@
+.calc-fees {
+    display: flex;
+    flex-direction: column;
+}
+
+.calc-fees h1 {
+    padding-bottom: 20px;
+    align-self: center;
+}
+
+.calc-fee-btn-return {
+    position: fixed;
+    top: 100px;
+    right: 3%;
+    width: 140px;
+    background-color: var(--fee-blue-main);
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.calc-fee-btn-return .icon {
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+.calc-fee-btn-return:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+    background-color: var(--fee-blue-hover);
+}
+
+.calc-fees h3 {
+    align-self: center;
+}   
+
+.calc-fees .calc-fees-input {
+    align-self: center;
+    text-align: center;
+    width: 5%;
+    background-color: var(--bg-color);
+    border: none;
+    border-bottom: 2px solid var(--fee-blue-main);
+    font-size: large;
+}
+
+.calc-fees .calc-fees-input:focus{
+    border-bottom: 2px solid var(--fee-blue-hover);
+    outline: none;
+}
+
+.calc-fees .calc-fees-input.fee-error {
+    color: rgb(184, 0, 0);
+    border-bottom: 2px solid rgb(184, 0, 0);
+}
+
+.calc-fees-daterange {
+    align-self: center;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.calc-fees-btns {
+    align-self: center;
+    margin: 10px;
+}
+.calc-fees-btns button {
+    margin: 10px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+
+.calc-fees-btns button {
+    background-color: var(--fee-blue-main);
+    color: white;
+    border: 0;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+	font-size: 16px;
+	padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.calc-fees-btns button:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+    background-color: var(--fee-blue-hover);
+}

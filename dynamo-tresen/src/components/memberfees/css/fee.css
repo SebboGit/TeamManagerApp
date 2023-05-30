@@ -1,0 +1,137 @@
+.fee {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+	display: flex;
+	margin: 20px;
+	overflow: hidden;
+	width: 70vw;
+	cursor: default;
+}
+
+.fee:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+}
+
+.fee .fee-id {
+	opacity: 0.6;
+    margin: 0px;
+}
+
+.fee h6 {
+	opacity: 0.6;
+	margin: 4px 10px;
+	letter-spacing: 1px;
+    grid-column: 1;
+}
+
+.fee-status.pending {
+    color: darkorange;
+	margin-right: 20px;
+}
+
+.fee-status.confirmed {
+    color: green;
+}
+
+.fee h6 span {
+    margin-right: 5px;
+}
+
+.fee h3 {
+    letter-spacing: 1px;
+	margin: 10px 0 0 0;
+}
+
+.fee h2 {
+	margin: 0 0 0 -40%;
+    font-size: 32px;
+    grid-column: 2;
+}
+
+.fee-header {
+	background-color: var(--fee-blue-main);
+	color: #fff;
+	padding: 10px 30px;
+}
+
+.fee:hover .fee-header {
+    background-color: var(--fee-blue-hover);
+}
+
+.fee-info {
+	padding: 10px;
+	position: relative;
+	width: 100%;
+    display: inline-grid;
+    align-items: center;
+}
+
+.btn-fee {
+	background-color: lightgrey;
+	border: 0;
+	border-radius: 30px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+	color: black;
+	font-size: 16px;
+	padding: 12px 20px;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-fee:hover {
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-fee .icon {
+    margin: 0;
+}
+
+/* Delete Button */
+.btn-fee.delete-btn {
+    position: absolute;
+	bottom: 20px;
+	right: 30px;
+}
+
+	/* Hide normally */
+.btn-fee.delete-btn div.icon.hover {
+	display: none;
+}
+
+	/* when hovering the button */
+.btn-fee.delete-btn:hover {
+	background-color: red;
+}
+
+.btn-fee.delete-btn:hover div.icon.standard {
+	display: none;
+}
+
+.btn-fee.delete-btn:hover div.icon.hover {
+	display: inline-block;
+}
+
+/* Edit Button*/
+.btn-fee.edit-btn {
+    position: absolute;
+	bottom: 20px;
+	right: 100px;
+}
+
+.btn-fee.edit-btn:hover {
+	background-color: darkorange;
+}
+
+/* Approve Button */
+.btn-fee.appr-btn {
+    position: absolute;
+	bottom: 20px;
+	right: 170px;
+}
+
+.btn-fee.appr-btn:hover {
+	background-color: rgb(27, 223, 27);
+}

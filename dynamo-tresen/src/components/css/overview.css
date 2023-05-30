@@ -1,0 +1,47 @@
+.h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.buttonfield {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 25%;
+    grid-template-areas:
+        "buttonMS_1 buttonMS_2 buttonMS_3 buttonMS_4 buttonMS_5"
+}
+
+.buttonfield button {
+    background-color: white;
+    padding: 10px 24px;
+    float: left;
+    border: none;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.buttonMS_1{
+    grid-area: buttonMS_1;
+}
+
+.buttonMS_2{
+    grid-area: buttonMS_2;
+}
+
+.buttonMS_3{
+    grid-area: buttonMS_3;
+}
+
+.buttonMS_4{
+    grid-area: buttonMS_4;
+}
+
+.buttonMS_5{
+    grid-area: buttonMS_5;
+}
+
+button:hover{
+    background-color: grey;
+}
+

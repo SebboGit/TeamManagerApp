@@ -1,0 +1,30 @@
+.ep-layout {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.ep-btn{
+    color: white;
+    padding: 6px 12px 6px 12px;
+    margin-right: 15px;
+    background-color: green;
+    top: 16px;
+    right: 16px;
+}
+
+.ep-form{
+    text-align: left;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.ep-lbl {
+    width: 125px;
+    display: block;
+    float: left;
+}
+
+.ep-input[type="file"] {
+    display: inline;
+}
